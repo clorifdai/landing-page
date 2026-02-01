@@ -1,0 +1,64 @@
+/* index.html */
+body {
+  /* background-color: #1f2937; */
+  margin: 0;
+}
+
+/* Bagian header */
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  font-family: Roboto;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+}
+
+.link{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style-type: none;
+}
+ 
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* Kontainer berisi satu sampai empat */
+.kontainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Bagian Satu */
+.satu {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 215px 60px 215px ;
+  
+  /* flex: 1; */
+  /* flex-grow: auto; */
+}
+
+.satu-kiri, .satu-kanan {
+  flex: 1;
+  /* Sebagai alat bantu lihat */
+  border: 1px solid white;  
+}
+
+.judul-pengenalan {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
