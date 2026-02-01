@@ -18,6 +18,7 @@ body {
 .logo {
   color: white;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .link{
@@ -54,11 +55,45 @@ a {
 .satu-kiri, .satu-kanan {
   flex: 1;
   /* Sebagai alat bantu lihat */
-  border: 1px solid white;  
+  /* border: 1px solid white;   */
+}
+
+.satu-kiri {
+  padding: 12px;
 }
 
 .judul-pengenalan {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+
+}
+
+.isi-pengenalan {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 12px 24px 12px 24px;
+  color: #e5e7eb;
+  font-weight: 900;
+  border: 0px solid ;
+}
+
+.satu-kanan {
+  /* background-color: white; */
+
+}
+img {
+  max-width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  /* flex-grow: 1; */
+  /* object-fit: cover; */
+
 }
