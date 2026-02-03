@@ -2,6 +2,7 @@
 body {
   /* background-color: #1f2937; */
   margin: 0;
+  font-family: Roboto;
 }
 
 /* Bagian header */
@@ -139,5 +140,66 @@ img {
   border: 3px solid #3882f6;
   flex: 1;
   padding: 80px;
+  /* margin: auto */
+}
+
+.tiga {
+  background-color: #e5e7eb;
+  padding: 75px 200px 75px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.testimoni {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: Roboto;
+
+}
+.nama-pelanggan {
+  text-align: end;
+  padding-right: 50px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.empat {
   
+}
+
+.empat .empat-kontainer {
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+  background-color: #3882f6;
+  justify-content:  space-evenly;
+  align-items: center;
+  padding: 40px;
+  color: #e5e7eb;
+  margin: 132px;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.judul-pemberitahuan {
+  font-size: 32px;
+  font-weight: 600;
+}
+.isi-pemberitahuan {
+  font-size: 18px;
+}
+button.sign-up {
+  border: 1px solid #f9faf8;
+  padding: 12px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  color: #e5e7eb;
 }
